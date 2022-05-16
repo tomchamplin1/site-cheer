@@ -1,13 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Inter', 'Poppins', sans-serif;
+}
+
+.text-gradient {
+  background:linear-gradient(135deg, #FFCC33 0%, #E233FF 100%);
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  -webkit-box-decoration-break:clone
+}
+
+.bg-gradient {
+  background:linear-gradient(135deg, #FFCC33 0%, #E233FF 100%);
+  -webkit-box-decoration-break:clone
+}
+
+.hero {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650573317/SiteCheer/curve-bg2_axd9zv.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650573317/SiteCheer/curve-bg2_axd9zv.webp");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circles {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650574947/SiteCheer/circles_c13c24.svg");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.waves {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650574946/SiteCheer/waves_tortnc.svg");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-weight:800;
 }
