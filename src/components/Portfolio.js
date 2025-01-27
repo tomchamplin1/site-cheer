@@ -1,12 +1,16 @@
 import React from "react";
-import 'animate.css';
+import "animate.css";
 import "animate.css/animate.min.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Portfolio() {
   return (
     <section id="portfolio" className="pb-48 px-5 circles">
-      <AnimationOnScroll class="mx-auto" animateIn="animate__fadeInUp" animateOnce="true">
+      <AnimationOnScroll
+        class="mx-auto"
+        animateIn="animate__fadeInUp"
+        animateOnce="true"
+      >
         <h3 class="text-center mb-3 text-4xl md:text-5xl font-extrabold leading-tight">
           Our <span className="text-gradient">work</span>
         </h3>
@@ -20,11 +24,11 @@ export default function Portfolio() {
           <div class="flex-shrink-0 text-center block max-w-sm bg-white shadow-lg">
             <picture>
               <source
-                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_400/v1649932214/SiteCheer/oasis-ss_tzlmge.webp"
+                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/v1738006987/Oasis_SS.webp"
                 type="image/webp"
               />
               <img
-                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_400/v1649932214/SiteCheer/oasis-ss_tzlmge.jpg"
+                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/v1738006987/Oasis_SS.jpg"
                 className="mx-auto"
                 loading="lazy"
                 decoding="async"
@@ -45,7 +49,7 @@ export default function Portfolio() {
               <div className="py-8 text-left">
                 <p>
                   <a
-                    href="https://oasisih.netlify.app"
+                    href="https://oi-health.com"
                     class="rounded-3xl inline-block bg-blue-600 border border-blue-600 hover:bg-white hover:text-blue-600 text-white text-lg px-5 py-2 justify-center text-center"
                   >
                     Visit page
@@ -57,11 +61,11 @@ export default function Portfolio() {
           <div class="flex-shrink-0 text-center block max-w-sm bg-white shadow-lg">
             <picture>
               <source
-                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_400/v1649932214/SiteCheer/iah-ss_at0rsu.webp"
+                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/v1738007089/IAH_SS.webp"
                 type="image/webp"
               />
               <img
-                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_400/v1649932214/SiteCheer/iah-ss_at0rsu.jpg"
+                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/v1738007089/IAH_SS.jpg"
                 className="mx-auto"
                 loading="lazy"
                 decoding="async"
@@ -94,32 +98,32 @@ export default function Portfolio() {
           <div class="flex-shrink-0 text-center block max-w-sm bg-white shadow-lg">
             <picture>
               <source
-                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_400/v1649932213/SiteCheer/Revo-SS_fi0qsi.webp"
+                srcset="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_2000/v1738006716/Clean_and_Honest_SS.webp"
                 type="image/webp"
               />
               <img
-                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_400/v1649932213/SiteCheer/Revo-SS_fi0qsi.jpg"
+                src="https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_2000/v1738006716/Clean_and_Honest_SS.jpg"
                 className="mx-auto"
                 loading="lazy"
                 decoding="async"
-                alt="revo zero"
+                alt="Clean and Honest"
                 width="400px"
                 height="220px"
               />
             </picture>
             <div className="text-left pl-3">
               <h5 class="flex pt-4 pb-1 text-lg tracking-tight text-black font-bold">
-                Revo Zero
+                Clean and Honest
               </h5>
-              <p class="flex text-md text-gray-700 pb-5">Herndon, VA</p>
+              <p class="flex text-md text-gray-700 pb-5">Austin, TX</p>
               <p class="flex text-lg text-black">
-                Revo Zero is an automotive start-up, offering both a nationwide
-                hydrogen infrastructure and pFC vehicles.
+                Clean & Honest is your resource for living a non-toxic, organic,
+                and sustainable lifestyle.
               </p>
               <div className="flex py-8 text-left">
                 <p>
                   <a
-                    href="https://revo-zero.netlify.app"
+                    href="https://cleanandhonest.com"
                     class="rounded-3xl inline-block bg-blue-600 border border-blue-600 hover:bg-white hover:text-blue-600 text-white text-lg px-5 py-2 justify-center text-center"
                   >
                     Visit page

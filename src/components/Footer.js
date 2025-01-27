@@ -6,7 +6,13 @@ export default function Footer() {
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
           <a href="#" class="flex items-center">
-            <img src="https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650924167/SiteCheer/sitecheer_logo_peuwun.svg" loading="lazy" decoding="async" class="h-10 md:h-12" alt="logo" />
+            <img
+              src="https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650924167/SiteCheer/sitecheer_logo_peuwun.svg"
+              loading="lazy"
+              decoding="async"
+              class="h-10 md:h-12"
+              alt="logo"
+            />
           </a>
         </div>
         <div class="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -43,24 +49,16 @@ export default function Footer() {
             </h2>
             <ul class="text-gray-600">
               <li class="mb-4">
-                <a>
-                  Website Development
-                </a>
+                <a>Website Development</a>
               </li>
               <li class="mb-4">
-                <a>
-                  SEO Optimization
-                </a>
+                <a>SEO Optimization</a>
               </li>
               <li class="mb-4">
-                <a>
-                  Logo Design & Branding
-                </a>
+                <a>Logo Design & Branding</a>
               </li>
               <li>
-                <a>
-                  Custom Designs
-                </a>
+                <a>Custom Designs</a>
               </li>
             </ul>
           </div>
@@ -75,9 +73,7 @@ export default function Footer() {
                 </a>
               </li>
               <li class="mb-4 hover:underline">
-                <a href="tel:+12105706305">
-                  Phone: (210) 570-6305
-                </a>
+                <a href="tel:+12105706305">Phone: (210) 570-6305</a>
               </li>
             </ul>
           </div>
@@ -86,7 +82,7 @@ export default function Footer() {
       <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm text-gray-500 sm:text-center">
-          © 2022{" "}
+          © 2025{" "}
           <a href="#" class="hover:underline">
             SiteCheer
           </a>
